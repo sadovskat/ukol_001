@@ -1,0 +1,56 @@
+    
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    background-color: bisque;
+}
+
+body{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vw;    
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+text{
+
+}
+
+section{
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+    grid-auto-columns: auto;
+    grid-auto-rows: auto;
+    background-color: aqua;
+    width: 50vw;
+    height: auto;
+    aspect-ratio: 1 / 1;
+    grid-column-start: 1;
+}
+
+.item1{
+    grid-area: 11 / 1 / 10 / 11;
+    background-color: green;
+}
+
+.item2{
+    grid-area: 4 / 8 / 10 / 8;
+    background-color: sienna;
+}
+
+.item3{
+    grid-area: 4 / 6 / 4 / 11;
+    background-color: green;
+}
+
+.item4{
+    grid-area: 4 / 7 / 3 / 10;
+    background-color: green;
+}
