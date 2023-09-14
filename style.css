@@ -18,7 +18,12 @@ body{
     font-family: 'Courier New', Courier, monospace;
 }
 
-text{
+h1:hover{
+    background-color: green;
+}
+
+h2:hover{
+    background-color: green;
 
 }
 
